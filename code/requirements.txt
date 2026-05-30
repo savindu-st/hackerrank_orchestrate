@@ -1,0 +1,11 @@
+langchain
+langchain-google-genai
+langgraph
+pandas
+langchain-chroma
+tenacity
+langchain-huggingface
+sentence-transformers
+python-dotenv
+pydantic
+langchain-text-splitters

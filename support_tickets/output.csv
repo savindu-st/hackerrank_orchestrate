@@ -1,1 +1,121 @@
-issue,subject,company,response,product_area,status,request_type,justification
+status,product_area,response,justification,request_type
+escalated,account_management,"Hello, thank you for reaching out. I understand you've lost access to your Claude team workspace after your IT admin removed your seat. I have escalated your ticket to a human specialist who will review your request and follow up with you shortly to assist further.","The user is requesting access restoration for a team workspace they do not admin, which requires specialist intervention or verification of organization policies. I have acknowledged the issue and escalated it as per the instructions.",product_issue
+replied,screen,"I understand you have concerns regarding your test score and the recruiter's decision. Please note that HackerRank provides the platform for testing, but the evaluation of answers and hiring decisions are managed entirely by the company you applied to.
+
+If you believe there was an error in your grading or experienced a technical issue during the test, we encourage you to report this directly to your recruiter or hiring team. They have the ability to review your detailed test report and manually update your score if they determine it is appropriate. They can also decide whether to offer a retest or continue your application process.","The user is requesting a score increase and a change in their hiring status. According to the documentation, candidates should report issues directly to their recruiter, as only the recruiter/company admin can review detailed reports and change scores. HackerRank Support does not manage hiring decisions or manually adjust scores for candidates.",invalid
+escalated,billing,"Hello, I understand that you received the wrong product from an online merchant and are having trouble getting a response from them. I have escalated your ticket to one of our specialists who can further assist you with the dispute process. A specialist will follow up with you shortly to guide you through the next steps for requesting a refund through your card issuer. In the meantime, you may also report the purchase issue via our online form at https://usa.visa.com/Forms/visa-rules.html.","The user is requesting a refund and a merchant ban due to a product dispute. Since I cannot process refunds or ban merchants directly, and the user is expressing urgency, I am escalating this to a human specialist as requested. I acknowledged the issue and provided a helpful link from the documentation.",product_issue
+escalated,billing,"I'm sorry to hear that your mock interview was interrupted. Please note that you can typically return and continue your interview from where you left off at any time. However, since you are requesting a refund for the credit used, I have escalated your ticket to our billing specialists who will review your account and follow up with you shortly.","The user is reporting a technical issue (interrupted interview) and requesting a refund. While documentation suggests they can resume the interview, there is no self-service way to refund a used credit, requiring a human specialist to handle the refund request.",bug
+escalated,billing,"Hello, thank you for reaching out. I understand you're experiencing an issue with your payment for order ID cs_live_abcdefgh. I have escalated your ticket to our billing specialists who will investigate this for you. You can also contact us directly at support@hackerrank.com for further assistance.","The user is reporting a specific payment issue with a transaction ID. According to the instructions, I must not attempt to solve the issue myself and must escalate it to a human specialist. I have acknowledged the issue and provided the general support email found in the documentation.",product_issue
+escalated,security,"Thank you for reaching out. I understand you need assistance with your company's infosec process and filling out the required security forms to start using HackerRank for hiring. I have escalated your request to our specialist team, who will follow up with you shortly to coordinate the completion of these documents. In the meantime, if you have a dedicated HackerRank Customer Account Manager, you may also reach out to them directly for expedited assistance.",The user is requesting assistance with a corporate infosec review/security questionnaire. This is a specialized B2B request that cannot be handled via standard support documentation and requires coordination with the security and account management teams.,product_issue
+replied,interviews,"Hello! Based on your issue, here are the most likely causes and solutions:
+
+**If you are in a HackerRank Interview:**
+It is possible that the tab you are looking for is currently locked. In the Interview platform, candidates see a blank screen or missing tabs until the interviewer unlocks them. Please ask your interviewer to click ""Unlock"" to make the tab visible to you.
+
+**Regarding submissions not working:**
+- **Submit vs. Run:** Ensure you are clicking the ""Submit"" button. If you only click ""Run Code"" or ""Run Tests,"" the system will not record a final submission, and you may see a message stating ""No code was submitted.""
+- **Timeouts:** Check if your code is being terminated due to a timeout, which can prevent a successful submission.
+- **Processing Time:** If you are participating in a challenge, results may take a short time to process before they appear.
+
+If you are not in an interview and are using the practice platform, please provide more details about the ""apply tab"" you are looking for, as this is not a standard feature of the practice environment.","The user is reporting a missing tab and submission issues. Documentation on HackerRank Interviews explains that tabs are hidden until the interviewer clicks 'Unlock'. Documentation on assessment reports explains that users often run code without hitting 'Submit', leading to 'No code was submitted' errors. I have addressed both possibilities (Interview vs. Practice) based on the provided text.",product_issue
+escalated,general_support,"Hello, I'm sorry to hear that you're experiencing issues with your submissions across all challenges. I have escalated your ticket to our technical specialists for a deeper investigation. A member of our team will follow up with you shortly. In the meantime, you can also reach out to us directly at help@hackerrank.com for further assistance.","The user is reporting a systemic failure of submissions across all challenges, which indicates a potential platform-wide bug or account-specific technical issue that requires specialist intervention. I have acknowledged the issue and provided the official support email as an alternative contact method per the documentation.",bug
+replied,interviews,"Hello! I'm sorry to hear you're experiencing a blocker with the Zoom connectivity check. Based on our documentation, this issue is typically related to network restrictions or browser compatibility.
+
+To resolve this, please try the following steps:
+
+1. **Check Network Allowlist:** If you are on a corporate network, VPN, or behind a firewall, ensure that the following domains are not blocked:
+   - `*.zoom.us`
+   - `*.*.zoom.us`
+   - `zoom.us`
+
+2. **Verify Browser Compatibility:** Ensure you are using the most up-to-date version of one of these supported browsers:
+   - Google Chrome
+   - Microsoft Edge
+   - Mozilla Firefox
+
+3. **Re-run the Compatibility Check:** You can verify your audio/video permissions and internet strength using the official compatibility tool here: https://www.hackerrank.com/compatibility
+
+If you have already tried these steps and the error persists, please let us know.",The user is failing the Zoom connectivity part of the HackerRank compatibility check. The documentation specifically lists required Zoom domains that must not be blocked and the supported browsers for this feature. I provided these specific requirements and the link to the compatibility check tool.,product_issue
+replied,screen,"Hello, thank you for reaching out. Please note that HackerRank assessments are managed by the company that invited you to take the test. HackerRank support cannot reschedule assessments or extend deadlines for candidates directly.
+
+We recommend contacting the recruiter or the hiring team at the company that sent you the assessment invite to request a reschedule or a new invite. They have the ability to extend the test invite expiry or reinvite you to retake the test.","The user is a candidate requesting to reschedule a HackerRank assessment. According to the documentation, test invite settings and reinviting candidates are actions performed by the test owner/company. Therefore, the candidate must contact the hiring company directly.",product_issue
+escalated,interviews,"Hello, thank you for reaching out. I understand that candidates are being unexpectedly sent back to the HR lobby after approximately 20 minutes, particularly when screen sharing is active, and you'd like to confirm if there are inactivity settings that can be adjusted to prevent this. I have escalated your ticket to our technical specialists to investigate this behavior and determine if screen sharing is impacting session activity. A specialist will follow up with you shortly with more information.","The user is reporting a specific technical behavior (candidates being returned to the lobby after 20 minutes during screen sharing) that is not covered in the provided documentation. While there is a general account inactivity timeout, there is no documented 'lobby return' timeout. Therefore, this requires investigation by a human specialist.",bug
+replied,general_support,"Hello! I'm sorry to hear you're having trouble. To help you resolve this as quickly as possible, could you please provide more details about the issue? Specifically, let us know which service you are using (HackerRank, Claude, or Visa) and a description of what is not working or any error messages you are receiving.","The user's request is critically underspecified ('it's not working, help'), providing no information about the product or the nature of the problem. I have replied to ask for the necessary details to provide a grounded solution.",invalid
+replied,account_management,"To remove an interviewer from the platform, you must remove them from their assigned team. If a user is removed from the only team they belong to, their account will be automatically locked, revoking their access to the platform.
+
+Please follow these steps:
+1. Click your profile icon in the upper-right corner and select ""Teams Management"" from the drop-down menu.
+2. Ensure you have Company Admin or Team Admin access, as this is required to manage team members.
+3. If you are in the ""Users"" tab, look for the ""Actions"" column. The more options menu (three dots) located specifically under the ""Actions"" column is where administrative actions for that user are found.
+4. Remove the interviewer from their assigned team(s) to revoke their access.","The response is based on the documentation provided in 'Manage Team Members Prerequisite Managing team members' and 'locking-user-access-from-hackerrank.md'. It explains that removing a user from their only team locks the account and directs the user to the Teams Management section and the 'Actions' column, addressing why they might not see the option next to the name.",product_issue
+escalated,billing,"Hello, thank you for reaching out. I understand that you would like to pause your subscription as you have stopped hiring efforts for now. I have escalated your request to one of our billing specialists who will be able to assist you with this. A member of our team will follow up with you shortly.","The user is requesting to pause their subscription. While there is self-serve documentation for individual plans, subscription management for companies often requires manual intervention or verification by a specialist to ensure the correct plan is handled. Therefore, the ticket is being escalated to a human specialist as requested.",product_issue
+escalated,general_support,"I am sorry to hear that Claude has stopped working and your requests are failing. I have escalated your ticket to our specialist team for a deeper investigation. In the meantime, you can check status.claude.com for any active service incidents. A specialist will follow up with you as soon as possible.","The user is reporting a complete service failure ('stopped working completely'), which requires technical escalation to a human specialist as per the instructions. I have acknowledged the issue and provided the status page as a reference point.",bug
+escalated,security,I am very sorry to hear that your identity has been stolen. I have escalated your ticket to our security specialists who can provide the necessary guidance and support to secure your account. A specialist will follow up with you shortly to assist you further.,"The user is reporting identity theft, which is a high-severity security issue requiring specialized human intervention. I have acknowledged the issue and informed them of the escalation as per the instructions.",product_issue
+escalated,community,"Hello! I'm sorry to hear that you're experiencing issues with the Resume Builder. I have escalated your ticket to our technical specialists to investigate why the tool is unavailable for you. A member of our team will follow up with you shortly. In the meantime, you can check the HackerRank Status page (https://status.hackerrank.com/) for any real-time updates on platform stability.","The user is reporting a service outage ('Resume Builder is Down'), which requires technical investigation by a specialist. I have acknowledged the issue and provided the status page as a reference per the documentation.",bug
+replied,settings,"Hello! Yes, you can update the name on your certificate. Please note that you can only update the name once per account, and this change will apply to all your certificates.
+
+To update the name on your certificate, please follow these steps:
+1. Open your certificate page.
+2. In the Full Name field, enter the name you want to display.
+3. Click Regenerate Certificate.
+4. In the confirmation dialog, click Update Name.","The response is based directly on the 'Certifications FAQs' documentation, which provides the specific steps and limitations for updating a name on a HackerRank certificate.",product_issue
+replied,billing,"To dispute a charge, please contact your issuer or bank using the freephone number (only free when dialling from within the USA) located on the front or back of your Visa card. In many cases, your issuer or bank will require detailed information regarding the transaction before resolving the disputed charge.",The response is directly sourced from the 'support.md' documentation which provides specific instructions on how to dispute a charge.,product_issue
+escalated,security,"Thank you for reaching out to report a security vulnerability in Claude. We take these reports very seriously. I have escalated your ticket to our security specialists, who will follow up with you shortly to guide you through the next steps. In the meantime, you may also wish to review our Responsible Disclosure Policy at https://www.anthropic.com/responsible-disclosure-policy for detailed instructions on how to submit a report.","The user is reporting a major security vulnerability, which requires immediate attention from a human security specialist. I have acknowledged the issue and provided the link to the Responsible Disclosure Policy as per the documentation.",bug
+replied,privacy,"To stop Claude from crawling your website, you need to modify the robots.txt file in your top-level directory. Please ensure you do this for every subdomain you wish to opt out from.
+
+To block the bot from your entire website, add the following to your robots.txt file:
+
+User-agent: ClaudeBot
+Disallow: /
+
+If you prefer to limit crawling activity rather than blocking it entirely, you can use the Crawl-delay extension:
+
+User-agent: ClaudeBot
+Crawl-delay: 1
+
+Important considerations:
+- Avoid blocking IP addresses, as this may prevent the bot from reading your robots.txt file and honoring your opt-out request.
+- You can find a list of Anthropic crawler IP addresses at https://claude.com/crawling/bots.json.
+- If you believe the bots are malfunctioning, please contact claudebot@anthropic.com from an email address associated with the domain you are reporting.
+
+For more information, you can visit the Help Center at https://support.claude.com/en/collections/4078534-privacy-and-legal.","The response provides the exact robots.txt directives needed to block or limit ClaudeBot, warns against IP blocking, provides the IP list URL, and gives the contact email for malfunctions, all based strictly on the provided documentation.",product_issue
+replied,travel_support,"To access urgent cash using your Visa card, you can withdraw local currency at any ATM that displays the Visa PLUS mark using your PIN. To find the nearest ATM, you can use the Global ATM locator at https://www.visa.com/locator/atm.
+
+Please ensure that your card is activated for use in your current location and check with your bank regarding your daily ATM withdrawal limit to ensure you can withdraw the amount you need.",The response provides direct instructions on how to withdraw cash using a Visa card (Visa PLUS ATMs) and provides the official ATM locator link as found in the documentation.,product_issue
+escalated,privacy,"Thank you for reaching out about how your data is used for model improvement. I understand you'd like to know the specific duration for which your data is used when you opt-in to help improve Claude.
+
+While I can confirm that we use privacy-preserving tools to de-link your data from your identity and restrict access to a small number of personnel, I don't have the specific timeframe for the training data usage in my current documentation. I have escalated your ticket to a human specialist who can provide a more detailed answer regarding our data retention policies for model training. They will follow up with you as soon as possible.","The user is asking for a specific duration of data usage for model improvement. While the documentation explains *how* data is handled (de-linking, limited access), it does not provide a specific timeframe or expiration date for training data. Therefore, the ticket must be escalated to a specialist for an accurate answer.",product_issue
+escalated,security,"Hello, thank you for reaching out. I understand you are looking for code to delete files from your system. Because this request involves system-level destructive actions, I have escalated your ticket to our security specialists for further review. A specialist will follow up with you shortly.","The user is requesting code to perform a destructive action (deleting all files from a system), which violates safety policies. I am escalating this to a security specialist as per the instructions to not solve the issue myself and to acknowledge the issue while informing the user of the escalation.",invalid
+escalated,security,"Bonjour, je suis désolé d'apprendre que votre carte Visa a été bloquée pendant votre voyage. J'ai bien noté votre demande concernant les règles de détection de la fraude et la résolution de votre situation. Pour des raisons de sécurité, je ne peux pas divulguer nos protocoles internes, mais j'ai transmis votre dossier à un spécialiste qui pourra vous aider à débloquer votre carte. En attendant, vous pouvez contacter notre Service d'Assistance Client Mondial (GCAS) au +1 303 967 1090 pour une aide immédiate et multilingue, 24h/24 et 7j/7.","The user is reporting a blocked card during travel and requesting sensitive internal fraud detection logic. I cannot provide internal security rules, and the issue requires a human specialist to verify the account and unblock the card. I have provided the GCAS contact number for immediate assistance as per the travel-support documentation.",product_issue
+replied,integrations,"I am sorry to hear that your requests to Claude via AWS Bedrock are failing. For support inquiries regarding Claude in Amazon Bedrock, please contact AWS Support at https://aws.amazon.com/contact-us/ or reach out to your AWS account manager. For community-based support, you can visit AWS re:Post at https://repost.aws/.
+
+Additionally, you may want to verify that the Claude models are available in your specific AWS Region by visiting the Amazon Bedrock user guide: https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html","The documentation explicitly states that support for Claude in Amazon Bedrock is handled by AWS Support, AWS account managers, or AWS re:Post. It also provides a link to check model availability by region, which is a relevant troubleshooting step for failing requests.",bug
+replied,account_management,"To remove an employee from your HackerRank hiring account, you can manage their access through the Teams Management section:
+
+1. Log in to your HackerRank for Work account.
+2. Click your profile icon in the upper-right corner.
+3. Select ""Teams Management"" from the drop-down menu.
+4. Go to the ""Users"" tab.
+5. Locate the employee you wish to remove and click the more options menu under ""Actions.""
+6. Select the option to remove the user.
+
+Please note that if a user belongs to only one team, removing them from that team will lock the user account. 
+
+Additionally, if you need to remove multiple employees at once, you can use the bulk remove feature available in the Teams Management > Users tab. For more complete account management, you may also use the ""deactivate user"" option available under the enhanced administrative controls.","The response provides step-by-step instructions on how to remove a user via Teams Management, mentions the effect of removing a user from their only team (locking), and notes the bulk removal and deactivation options as per the provided documentation.",product_issue
+replied,integrations,"To set up a Claude LTI Developer Key in Canvas for your students, please follow these steps:
+
+1. Sign in to Canvas as an administrator and navigate to Admin -> Developer Keys.
+2. Click ""+ Developer Key"" and then select ""+ LTI Key.""
+3. Enter the following details:
+    - Key Name: Claude LTI
+    - Description: Enter a short description for the Canva LTI 1.3 app
+    - Redirect URIs: https://claude.ai/lti/launch
+    - Title: Claude LTI
+    - Target Link URI: https://claude.ai/lti/launch
+    - OpenID Connect Initiation Url: https://claude.ai/api/lti/login
+    - JWK method: https://claude.ai/api/lti/keys
+4. Under Additional Settings, toggle Privacy Level to Public.
+5. Under Placements, it is recommended to remove the defaults and add ""Course Navigation"" and ""Assignment Edit.""
+6. Click ""Save.""
+7. Toggle the state to On.","The user is a professor wanting to set up a Claude LTI key. The provided documentation specifically outlines the steps to create a Claude LTI Developer Key in Canvas, which directly addresses the request.",product_issue
+escalated,billing,Thank you for reaching out to us. I understand you are experiencing an issue where a merchant in the US Virgin Islands is requiring a minimum spend of $10 on your Visa card. I have escalated your ticket to a human specialist who will review this and follow up with you shortly to provide more clarity.,"No internal documentation was found regarding merchant-imposed minimum spends, so the ticket is being escalated to a specialist for a definitive answer.",product_issue

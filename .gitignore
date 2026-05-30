@@ -31,3 +31,11 @@ data/index/
 data/embeddings/
 *.sqlite
 *.db
+
+# logs
+log.txt
+
+# interview related
+*interview*
+interviews/
+**/interviews/**
