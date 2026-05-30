@@ -25,6 +25,8 @@ build/
 .idea/
 .vscode/
 Thumbs.db
+CLAUDE.md
+claude.md
 
 # local data / caches the participant may create
 data/index/
