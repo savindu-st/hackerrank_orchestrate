@@ -39,3 +39,10 @@ log.txt
 *interview*
 interviews/
 **/interviews/**
+
+# archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+
